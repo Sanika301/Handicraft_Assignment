@@ -1,0 +1,16 @@
+.h-section
+{
+  padding: 25px 0;
+  background: linear-gradient(rgba(62, 14, 14, 0.441), rgba(189, 81, 81, 0.5)), url('./images/bg5.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+}
+
+.nav-section
+{
+  /* Ensure it stays above other content */
+}

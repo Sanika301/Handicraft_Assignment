@@ -1,0 +1,33 @@
+.footer
+{
+  background:url('./images/bg5.jpg');
+  height: 20vh;
+}
+
+.back
+{
+  text-align: center;
+  height:20%;
+}
+
+
+.upper-svg
+{
+  background-image:url('./images/bg5.jpg');
+  height: 100%;
+  /* border: 2px solid black; */
+}
+
+
+
+.company
+{
+  height:80%;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: rgb(46, 185, 18); */
+  /* border: 2px solid black; */
+}
+/* .company div{ */
+  /* border:2px solid black; */
+/* } */

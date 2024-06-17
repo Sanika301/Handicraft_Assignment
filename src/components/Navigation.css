@@ -1,0 +1,32 @@
+.nav
+{
+  background:url('./images/bg5.jpg');
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link{
+  text-decoration: none;
+}
+
+.nav section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width:350px;
+  /* border: 2px solid black; */
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  /* text-decoration: none; */
+  /* border: 2px solid black; */
+}
+
+li{
+  margin: 0px;
+  /* border: 2px solid black; */
+}
+
