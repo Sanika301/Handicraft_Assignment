@@ -9,61 +9,61 @@ const products = [
   {
     id: 1,
     image:img1,
-    name: 'Product 1',
-    description: 'Description for product 1',
-    price: 99.99
+    name: "Handcrafted Ceramic Vase",
+    description: "A beautifully designed ceramic vase with intricate patterns.",
+    price: 45.99
   },
   {
     id: 2,
-    image: img1,
-    name: 'Product 2',
-    description: 'Description for product 2',
-    price: 89.99
+    image:img1,
+    name: "Wooden Elephant Sculpture",
+    description: "A hand-carved wooden elephant sculpture, perfect for home decor.",
+    price: 60.00
   },
   {
     id: 3,
-    image: img1,
-    name: 'Product 2',
-    description: 'Description for product 2',
-    price: 89.99
+    image:img1,
+    name: "Knitted Wool Blanket",
+    description: "A cozy knitted wool blanket made with natural fibers.",
+    price: 80.50
   },
   {
     id: 4,
-    image: img1,
-    name: 'Product 2',
-    description: 'Description for product 2',
-    price: 89.99
+    image:img1,
+    name: "Handmade Leather Wallet",
+    description: "A stylish and durable leather wallet with multiple compartments.",
+    price: 35.75
   },
   {
     id: 5,
-    image: img1,
-    name: 'Product 2',
-    description: 'Description for product 2',
-    price: 89.99
+    image:img1,
+    name: "Bamboo Table Lamp",
+    description: "An eco-friendly bamboo table lamp that provides a warm, ambient light.",
+    price: 55.20
   },
   {
     id: 6,
     image: img1,
-    name: 'Product 2',
-    description: 'Description for product 2',
-    price: 89.99
+    name: "Hand-Painted Ceramic Mug",
+    description: "A unique ceramic mug hand-painted with vibrant colors.",
+    price: 25.30
   },
   {
     id: 7,
     image: img1,
-    name: 'Product 2',
-    description: 'Description for product 2',
-    price: 89.99
+    name: "Beaded Necklace",
+    description: "A beautiful beaded necklace made with semi-precious stones.",
+    price: 42.10
   },
   {
     id: 8,
     image:img1,
-    name: 'Product 2',
-    description: 'Description for product 2',
-    price: 89.99
-  },
-  // Add more products as needed
+    name: "Woven Straw Basket",
+    description: "A sturdy woven basket made from natural straw, ideal for storage.",
+    price: 30.40
+  }
 ];
+
 
 const Products = () => {
   return (

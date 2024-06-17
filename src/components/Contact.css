@@ -17,22 +17,22 @@
   color: black;
   display: flex;
   flex-direction: column;
-  margin:50px auto;
+  /* margin:40px auto; */
   width: fit-content;
   border: 2px solid rgb(210, 202, 202);
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  /* box-shadow: -3px 3px 5px 2px rgba(190, 167, 167, 0.253),-3px 3px 5px 2px rgba(190, 167, 167, 0.253); */
   box-shadow: 3px 3px 5px 2px rgba(20, 7, 7, 0.491);;
   background-color: white
 }
 
 .form-input
 {
-  margin-top: 5px;
+  margin-top:8px;
   width:100%;
   display: block;
   padding:8px 0px;
+  padding-left:5px;
   border-radius: 2px;
   outline: none;
   border: none;
@@ -45,19 +45,21 @@
   width: 550px;
   /* border: 2px solid black; */
   margin: auto;
-  padding:30px;
+  padding:20px 15px;
 }
 
 .btn
 {
-  padding:15px 10px;
+  padding:15px 0px;
   border-radius: 10px;
   width: 100%;
   color: rgb(92, 14, 14);
   font-weight: 500px;
   font-size: 15px;
-  border: none;
+  border:none;
   background-color: rgb(21, 255, 0);
+  margin: auto;
+  
 }
 
 .btn:hover{
@@ -97,4 +99,17 @@
   max-width: 600px;
   margin: auto;
   /* border:2px solid black; */
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: green;
+  font-size: 1em;
+  margin-top: 10px;
+  text-align: center;
 }
